@@ -1,7 +1,7 @@
 ---
 pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 lang: is
-title-theme: "Mannleg stjórn í upplýsingaverkfræði"
+title-theme: "Kennsluhönnun með AI-erindrekum"
 subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 subtitle-position: below
 presenters:
@@ -9,11 +9,11 @@ presenters:
     hi-username: "helgaingim"
     orcid: "0000-0002-2780-3546"
     github: "tungufoss"
-    office: "IVT"
+    office: "VR-II"
 event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Háskóli Íslands"
 event-date: "20. nóvember 2026"
 watermark: img/hi/hi_logo.svg
-favicon: ../../quarto/favicon.png
+favicon: ../quarto/favicon.png
 format:
   haskoli-islands-revealjs:
     logo: img/hi/hi_named_logo-is.svg
@@ -22,23 +22,17 @@ format:
 
 {{< hi-title >}}
 
-## Erindrekinn getur framkvæmt
+## Námsmarkmiðið er faglegt vinnuferli
 
-AI-erindrekar geta tekið við markmiði, lesið samhengi, notað verkfæri og framkvæmt fjölskrefaverkefni.
+Notkun AI-erindreka í fyrirtækjum vex hratt og er að verða nýr staðall. Við þurfum að undirbúa nemendur fyrir vinnu með þeim.
 
 ::: {.fa-card cols=3}
 - code | **Breyta** | Skrifa kóða og vinna í mörgum skrám
 - terminal | **Prófa** | Keyra skipanir og prófanir
-- list-check | **Skila** | Undirbúa lausn og tillögur að næstu skrefum
+- list-check | **Skila** | Undirbúa lausn og leggja til næstu skref
 :::
 
-::: {.lead}
-Því meiri framkvæmdargeta sem erindrekinn fær, þeim mun mikilvægara verður að nemandinn haldi utan um markmið, afmörkun og ábyrgð.
-:::
-
-## Námsmarkmiðið er faglegt vinnuferli
-
-Í IÐN302G vinna nemendur með eigin gögn í teymum og læra að móta spurningar, greina gögn, rýna vinnu og miðla niðurstöðum.
+Í IÐN302G læra nemendur faglegt vinnuferli með eigin gögn í teymum:
 
 ::: {.steps}
 - Afmarka verkefni
@@ -50,14 +44,16 @@ AI-erindrekar geta tekið við markmiði, lesið samhengi, notað verkfæri og f
 
 ## Erindrekinn og nemandinn
 
-::: {.fa-card cols=2}
-- robot | **Erindrekinn** | Skrifar og breytir kóða, keyrir prófanir og leggur til lausnir
-- user-check | **Nemandinn** | Afmarkar verkið, metur prófanir, sannreynir lausnina og útskýrir hana
+::: {.oppose left="Erindrekinn getur" right="Nemandinn þarf að geta" left-icon="robot" right-icon="user"}
+- Skrifað og breytt kóða | Útskýrt hvað kóðinn gerir
+- Breytt mörgum skrám hratt | Afmarkað nauðsynlegar breytingar
+- Keyrt skipanir og prófanir | Metið hvort prófanir dugi
+- Samið skýrslu | Metið fullyrðingar, rök og niðurstöður
+- Unnið hratt og sjálfstætt | Stöðvað, einfaldað og breytt um stefnu
+- Búið til sannfærandi lausn | Sannreynt lausnina og tekið ábyrgð
 :::
 
-**Hraði er ekki mælikvarði á gæði.** Nemandinn þarf að geta stöðvað, einfaldað og breytt stefnu.
-
-## Mannleg stjórn í vinnuferlinu
+## Kennsluhönnunin gerir mannlega stjórn sýnilega
 
 ::: {.steps}
 - Markmið og afmörkun
@@ -66,49 +62,50 @@ AI-erindrekar geta tekið við markmiði, lesið samhengi, notað verkfæri og f
 - Nemandinn ákveður og ber ábyrgð
 :::
 
-Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að erindrekinn er búinn.
+::: {.fa-card cols=4}
+- file-lines | `AGENTS` | Skilgreina verkefnareglur og samhengi
+- [hi-teal] clipboard-list | `AGENT_LOG` | Skrá notkun erindrekans og mannlega yfirferð
+- [hi-yellow] code-pull-request | **Pull request** | Teymið les, prófar og gagnrýnir afmarkaða breytingu
+- [hi-orange] user-check | **iTA** | Verkefnastjóri útskýrir ákvarðanir og vinnulag teymisins
+:::
 
-## Það sem sást fyrstu vikurnar
+::: {.lead}
+Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að erindrekinn er búinn.
+:::
+
+## Niðurstöður eftir fyrstu sjö vikurnar
+
+**Svör úr miðmisseriskönnuninni**
 
 ::: {.fa-card cols=2}
 - lightbulb | **Áhugi** | Nemendur nefna raunhæf verkefni og áhuga á að kynnast erindrekum
 - triangle-exclamation | **Álag** | Umfang, Git-vinnuferli og óskýrar væntingar valda áhyggjum
 :::
 
-Þegar verkefni eru stór og tími knappur getur erindrekinn framleitt meiri kóða og flóknari lausnir en nemendur ráða við að yfirfara.
+**Athuganir kennara á vinnuferli teymanna**
 
-::: {.lead}
-Teymi sem afmarka verkið og fela erindrekanum smærri verkefni virðast halda betur yfirsýn og skilningi.
+::: {.oppose left="Óbeislaður erindreki" right="Taminn erindreki" left-icon="robot" right-icon="user-check"}
+- Framleiðir meira og flóknara en teymið nær að yfirfara | Fær afmarkað verkefni sem teymið getur yfirfarið
+- Erfiðara að halda yfirsýn og skilningi | Teymið heldur betur yfirsýn og skilningi
 :::
 
-## Kennsluhönnunin gerir ábyrgð sýnilega
-
-::: {.fa-card cols=3}
-- file-lines | **AGENTS** | Nemandi skilgreinir reglur og samhengi fyrir erindrekann
-- clipboard-list | **AGENT_LOG** | Nemandi skráir mikilvæga notkun og eigin yfirferð
-- code-pull-request | **Pull request** | Teymið les, prófar og gagnrýnir afmarkaða breytingu
+::: {.yellow-takeaway}
+**Magn og hraði eru ekki mælikvarðar á gæði.** Afmörkun felst líka í að ákveða hvað erindrekinn á ekki að framleiða og hvernig vinnunni er skipt.
 :::
-
-Við upphaf nýrrar lotu er verkefnastjóri fyrri lotu spurður um ákvarðanir og vinnulag teymisins. Þannig þarf nemandinn að geta útskýrt sameiginlega afurð.
-
-## Lykilatriðið er verkaskiptingin
-
-::: {.lead}
-Lykilatriðið er ekki aðeins hvort erindreki sé notaður, heldur **hvernig vinnunni milli nemanda og erindreka er skipt og hversu vel verkefnið er afmarkað áður en framkvæmd er falin erindrekanum.**
-:::
-
-## Fagleg færni felst líka í afmörkun {.focus-slide}
-
-**Eftir því sem auðveldara verður að framleiða efni verður afmörkun þess sem á ekki að framleiða mikilvægari hluti af faglegri færni.**
 
 ## {.focus-slide}
 
-::: {.lead}
-### Takk fyrir
+::: {.two-col}
+::: {.col}
+![](img/hi-vr-ii.jpg){.contact-photo style="max-height: 520px;"}
+:::
 
-### Spurningar?
+::: {.col}
+```{=html}
+<h2>Takk fyrir</h2>
+<h3>Spurningar?</h3>
+```
 
-**Helga Ingimundardóttir** · Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands
-
-[Greinin á vefnum](https://tungufoss.github.io/Kennsluakademia-erindrekar/)
+{{< contact-card >}}
+:::
 :::
