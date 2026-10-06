@@ -1,0 +1,114 @@
+---
+pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+lang: is
+title-theme: "Mannleg stjórn í upplýsingaverkfræði"
+subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+subtitle-position: below
+presenters:
+  - name: "Helga Ingimundardóttir"
+    hi-username: "helgaingim"
+    orcid: "0000-0002-2780-3546"
+    github: "tungufoss"
+    office: "IVT"
+event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Háskóli Íslands"
+event-date: "20. nóvember 2026"
+watermark: img/hi/hi_logo.svg
+favicon: ../../quarto/favicon.png
+format:
+  haskoli-islands-revealjs:
+    logo: img/hi/hi_named_logo-is.svg
+    footer: "Kennsluakademían 2026 · Helga Ingimundardóttir"
+---
+
+{{< hi-title >}}
+
+## Erindrekinn getur framkvæmt
+
+AI-erindrekar geta tekið við markmiði, lesið samhengi, notað verkfæri og framkvæmt fjölskrefaverkefni.
+
+::: {.fa-card cols=3}
+- code | **Breyta** | Skrifa kóða og vinna í mörgum skrám
+- terminal | **Prófa** | Keyra skipanir og prófanir
+- list-check | **Skila** | Undirbúa lausn og tillögur að næstu skrefum
+:::
+
+::: {.lead}
+Því meiri framkvæmdargeta sem erindrekinn fær, þeim mun mikilvægara verður að nemandinn haldi utan um markmið, afmörkun og ábyrgð.
+:::
+
+## Námsmarkmiðið er faglegt vinnuferli
+
+Í IÐN302G vinna nemendur með eigin gögn í teymum og læra að móta spurningar, greina gögn, rýna vinnu og miðla niðurstöðum.
+
+::: {.steps}
+- Afmarka verkefni
+- Fela erindreka afmarkað verk
+- Prófa og rýna breytingar
+- Útskýra niðurstöðuna
+- Taka ábyrgð á lokaafurðinni
+:::
+
+## Erindrekinn og nemandinn
+
+::: {.fa-card cols=2}
+- robot | **Erindrekinn** | Skrifar og breytir kóða, keyrir prófanir og leggur til lausnir
+- user-check | **Nemandinn** | Afmarkar verkið, metur prófanir, sannreynir lausnina og útskýrir hana
+:::
+
+**Hraði er ekki mælikvarði á gæði.** Nemandinn þarf að geta stöðvað, einfaldað og breytt stefnu.
+
+## Mannleg stjórn í vinnuferlinu
+
+::: {.steps}
+- Markmið og afmörkun
+- Erindrekinn framkvæmir
+- Nemandinn prófar og rýnir
+- Nemandinn ákveður og ber ábyrgð
+:::
+
+Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að erindrekinn er búinn.
+
+## Það sem sást fyrstu vikurnar
+
+::: {.fa-card cols=2}
+- lightbulb | **Áhugi** | Nemendur nefna raunhæf verkefni og áhuga á að kynnast erindrekum
+- triangle-exclamation | **Álag** | Umfang, Git-vinnuferli og óskýrar væntingar valda áhyggjum
+:::
+
+Þegar verkefni eru stór og tími knappur getur erindrekinn framleitt meiri kóða og flóknari lausnir en nemendur ráða við að yfirfara.
+
+::: {.lead}
+Teymi sem afmarka verkið og fela erindrekanum smærri verkefni virðast halda betur yfirsýn og skilningi.
+:::
+
+## Kennsluhönnunin gerir ábyrgð sýnilega
+
+::: {.fa-card cols=3}
+- file-lines | **AGENTS** | Nemandi skilgreinir reglur og samhengi fyrir erindrekann
+- clipboard-list | **AGENT_LOG** | Nemandi skráir mikilvæga notkun og eigin yfirferð
+- code-pull-request | **Pull request** | Teymið les, prófar og gagnrýnir afmarkaða breytingu
+:::
+
+Við upphaf nýrrar lotu er verkefnastjóri fyrri lotu spurður um ákvarðanir og vinnulag teymisins. Þannig þarf nemandinn að geta útskýrt sameiginlega afurð.
+
+## Lykilatriðið er verkaskiptingin
+
+::: {.lead}
+Lykilatriðið er ekki aðeins hvort erindreki sé notaður, heldur **hvernig vinnunni milli nemanda og erindreka er skipt og hversu vel verkefnið er afmarkað áður en framkvæmd er falin erindrekanum.**
+:::
+
+## Fagleg færni felst líka í afmörkun {.focus-slide}
+
+**Eftir því sem auðveldara verður að framleiða efni verður afmörkun þess sem á ekki að framleiða mikilvægari hluti af faglegri færni.**
+
+## {.focus-slide}
+
+::: {.lead}
+### Takk fyrir
+
+### Spurningar?
+
+**Helga Ingimundardóttir** · Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands
+
+[Greinin á vefnum](https://tungufoss.github.io/Kennsluakademia-erindrekar/)
+:::

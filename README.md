@@ -12,6 +12,8 @@ quarto render erindrekar.qmd
 
 Þetta endurmyndar `erindrekar.tex`, `erindrekar.pdf` og `erindrekar.html`. Breyttu `erindrekar.qmd`, ekki `erindrekar.tex`, því `erindrekar.tex` er mynduð skrá og skrifast yfir við birtingu. Vefútgáfan verður birt á [tungufoss.github.io/Kennsluakademia-erindrekar](https://tungufoss.github.io/Kennsluakademia-erindrekar/) þegar GitHub Pages hefur lokið fyrstu birtingu.
 
+Glærurnar eru í [slides/index.qmd](slides/index.qmd) og birtast á [tungufoss.github.io/Kennsluakademia-erindrekar/slides](https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/). Endurrenderaðu þær með `quarto render slides/index.qmd`.
+
 Til að forskoða vefútgáfuna með endurhleðslu:
 
 ```bash
@@ -22,6 +24,7 @@ quarto preview erindrekar.qmd --to haskoli-islands-html
 
 - `erindrekar.qmd` – heimildarskjal með lýsigögnum og meginmáli.
 - `references.bib` – heimildir.
+- `slides/index.qmd` – glærur byggðar á erindinu.
 - `kennsluakademia_conf.cls` og `quarto/` – útlit og stillingar fyrir PDF og vefútgáfu.
 - `.github/workflows/publish.yml` – byggir PDF og vefútgáfu við uppfærslu á `main` og birtir vefútgáfuna á GitHub Pages.
 
