@@ -30,14 +30,14 @@ jobs:
           tinytex: true
 
       - name: Render PDF and HTML
-        run: quarto render article.qmd
+        run: quarto render erindrekar.qmd
 
       - name: Collect site
         run: |
           mkdir -p _site/quarto
-          cp -r article.html article_files article.pdf kennsluakademia.png _site/
+          cp -r erindrekar.html erindrekar_files erindrekar.pdf kennsluakademia.png _site/
           cp quarto/kennsluakademia.css quarto/favicon.png _site/quarto/
-          cp article.html _site/index.html
+          cp erindrekar.html _site/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,7 +1,7 @@
-# Quarto build output (article.qmd)
+# Quarto build output (erindrekar.qmd)
 /.quarto/
-/article.html
-/article_files/
+/erindrekar.html
+/erindrekar_files/
 /.idea/
 
 # LaTeX build files

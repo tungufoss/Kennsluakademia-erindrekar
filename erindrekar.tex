@@ -1,6 +1,6 @@
 % File: quarto/kennsluakademia-template.tex
-% Pandoc/Quarto template that maps article.qmd metadata onto kennsluakademia_conf.cls,
-% producing article.tex / article.pdf.
+% Pandoc/Quarto template that maps erindrekar.qmd metadata onto kennsluakademia_conf.cls,
+% producing erindrekar.tex / erindrekar.pdf.
 \documentclass{kennsluakademia_conf}
 
 \conference{Ráðstefna Kennsluakademíu opinberu háskólanna}
@@ -12,10 +12,11 @@ nám}
 \title{Erindrekinn vinnur, nemandinn ber ábyrgð}
 
 \author{%
-Helga Ingimundardóttir%
+Helga Ingimundardóttir\autid{}{0000-0002-2780-3546}%
 }
 
-\affil{}{Iðnaðarverkfræði, Háskóli Íslands}
+\affil{}{Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild
+(IVT), Háskóli Íslands}
 
 % Helpers pandoc's LaTeX writer expects
 \providecommand{\tightlist}{%
@@ -104,11 +105,21 @@ að fá gervigreind til að framleiða kóða eða greiningu. Notandinn þarf
 jafnframt að geta afmarkað verkefnið, stýrt vinnuferlinu, metið og
 sannreynt niðurstöður og borið ábyrgð á lokaafurðinni.
 
-Haustið 2026 var notkun erindreka því fléttuð markvisst inn í IÐN302G
-Upplýsingaverkfræði við Háskóla Íslands. Markmiðið var að kanna hvernig
-gera mætti erindreka að eðlilegum hluta faglegra vinnubragða nemenda án
-þess að sjálfvirknin tæki yfir þá hugsun, ákvarðanatöku og yfirsýn sem
-námið á að byggja upp.
+Haustið 2026 var notkun erindreka fléttuð markvisst inn í IÐN302G
+Upplýsingaverkfræði, skyldunámskeið á öðru ári í grunnnámi í
+iðnaðarverkfræði við Háskóla Íslands. Námskeiðið byggir upp tölvu- og
+gagnalæsi með áherslu á faglegt vinnuferli: að móta spurningar, afla og
+vinna gögn, halda utan um vinnuna í GitHub, gera greiningu
+endurtakanlega og miðla niðurstöðum með skýrum hætti
+\citep{ingimundardottir2026endurhonnun}.
+
+Notkun erindreka er hluti af þessari víðari endurhönnun námskeiðsins.
+Markmiðið er ekki aðeins að kenna nemendum að nota ný AI-verkfæri heldur
+að kenna þeim að beita þeim sem hluta af faglegu vinnuferli: að afmarka
+verkefni, fela erindreka viðeigandi verk, rýna afurðina og bera ábyrgð á
+niðurstöðunni. Áskorunin er því að nýta þá framkvæmdargetu sem
+erindrekarnir veita án þess að sjálfvirknin taki yfir þá hugsun,
+ákvarðanatöku og yfirsýn sem námið á að byggja upp.
 
 \section{Aðferð}\label{auxf0feruxf0}
 
@@ -150,13 +161,20 @@ Búið til sannfærandi lausn & Sannreynt lausnina og tekið ábyrgð á henni \
 \caption{Verkaskipting erindrekans og nemandans: aukinni framkvæmdargetu erindrekans þarf að mæta með virkri stýringu, mati og ábyrgð nemandans.}
 \end{table*}
 
+\begin{samepage}
+
 Nemendur nota \texttt{AGENTS} til að skilgreina verkefnareglur fyrir
-erindrekann og \texttt{AGENT\_LOG} til að skrá marktæka notkun hans og
-mannlega yfirferð. Í sérstakri \emph{pull request}-rýniæfingu lætur hver
-nemandi erindreka vinna lítið og afmarkað verkefni. Lausnin fer síðan í
-\emph{pull request} þar sem teymið þarf að lesa, prófa og gagnrýna hana
-áður en hún er samþykkt. Þannig er mannleg yfirferð ekki aðeins
-ráðlegging heldur sýnilegur hluti vinnuferlisins.
+erindrekann og \texttt{AGENT\_LOG} til að skrá notkun hans og mannlega
+yfirferð. Í sérstakri \emph{pull request}-æfingu er grunnferlið kennt
+með afmörkuðu verkefni: erindrekinn framkvæmir, en teymið þarf að lesa,
+prófa og gagnrýna breytingarnar áður en þær eru samþykktar.\footnote{Dæmi
+  um æfinguna og leiðbeiningar til nemenda má skoða á námskeiðsvef
+  IÐN302G:
+  \url{https://hi-idn.github.io/IDN302G/ai-tools/reviewing-agents.html}.}
+Sama ferli er síðan endurtekið í verkefnaskilum námskeiðsins:
+\textbf{afmarka, fela erindreka framkvæmd, rýna og taka ábyrgð}.
+
+\end{samepage}
 
 Aðgengi að verkfærunum er einnig hluti af kennsluhönnuninni. Full
 erindravirkni Codex og Claude Code krefst greiddrar áskriftar. Flestir
@@ -166,8 +184,8 @@ kostnaður er um 3.000--3.500 kr. og heildarkostnaður yfir misserið því
 sambærilegur við eina hefðbundna kennslubók. Til mótvægis eru engar
 kennslubækur keyptar í námskeiðinu; námsefnið er opið, aðgengilegt án
 endurgjalds og samið af kennara í takt við námskeiðið. Nemendur hafa
-jafnframt aðgang að GitHub Copilot og 1.500 AI credits án endurgjalds í
-gegnum GitHub Education.
+jafnframt aðgang að GitHub Copilot án endurgjalds í gegnum GitHub
+Education.
 
 Til að fá fyrstu mynd af reynslu nemenda voru opin svör úr
 miðmisseriskönnun eftir sjö vikna kennslu skoðuð ásamt athugunum kennara
@@ -190,11 +208,25 @@ flóknari lausnir og umfangsmeiri skýrslur en verkefnið krefst.
 Afleiðingin getur orðið sú að nemendur missa yfirsýn yfir eigin
 verkefni. Teymi sem afmarka verkefnið sjálf og fela erindrekanum smærri
 og yfirfaranlegri verk virðast hins vegar halda betur utan um bæði
-lausnina og eigin skilning.
+lausnina og eigin skilning. Þegar vandamál koma upp er jafnframt
+auðveldara að aðstoða teymi sem hafa haldið verkefninu afmörkuðu en þau
+sem hafa misst yfirsýn yfir umfangsmikla lausn.
 
-Þessar athuganir benda því til þess að lykilbreytan sé ekki aðeins hvort
+Hluti af upplifðu vinnuálagi virðist þannig geta orðið til í samspili
+við erindrekana sjálfa. Auðvelt er að framleiða meiri kóða, greiningu og
+texta en verkefnið krefst, en námskeiðið gerir jafnframt kröfu um að
+allir í teyminu geti sett sig inn í afurðina og að breytingar séu rýndar
+áður en þær eru samþykktar. Eftir því sem umfangið vex verður sú rýni
+tímafrekari og hætta skapast á að hún verði yfirborðskennd. Dæmi hafa
+jafnframt sést um að nemendur feli öðrum erindreka að rýna breytingar.
+Slík rýni getur verið gagnleg sem viðbót, en leysir ekki af hólmi
+mannlega yfirferð þegar nemendur eiga sjálfir að geta útskýrt og tekið
+ábyrgð á lausninni.
+
+Þessar athuganir benda því til þess að lykilatriðið sé ekki aðeins hvort
 erindreki sé notaður, heldur \textbf{hvernig vinnunni milli nemanda og
-erindreka er skipt}.
+erindreka er skipt} og hversu vel verkefnið er afmarkað áður en
+framkvæmd er falin erindrekanum.
 
 \section{Umræður}\label{umruxe6uxf0ur}
 
@@ -204,8 +236,8 @@ og safngreining Alanazi og félaga greina frá jákvæðum áhrifum
 AI-verkfæra á námsárangur í forritun, en yfirlit Farooq og félaga bendir
 jafnframt á áhyggjur nemenda af of miklu trausti á verkfærin og
 ónákvæmni þeirra \citep{alanazi2025, farooq2026}. Kortlagningaryfirlit
-Wang og félaga dregur upp sambærilega tvíþætta mynd: GenAI getur stutt
-sjálfstjórn og þátttöku nemenda, en jafnframt veikt yfirsýn og
+Wang og félaga dregur upp sambærilega tvíþætta mynd: spunagreind getur
+stutt sjálfstjórn og þátttöku nemenda, en jafnframt veikt yfirsýn og
 sjálfstætt mat ef niðurstöðum kerfanna er tekið gagnrýnislaust
 \citep{wang2026}.
 
@@ -216,24 +248,43 @@ og ábyrgð sýnilega og metanlega. iTA, \emph{pull request}-rýni,
 \texttt{AGENT\_LOG} og afmörkuð erindrekaverkefni eru tilraun til að
 færa matið í þá átt.
 
-Meginspurningin færist þannig frá:
+Reynslan bendir jafnframt til þess að kenna þurfi afmörkun
+erindrekaverkefna fyrr og með markvissari hætti. Áður en framkvæmd er
+falin erindreka þurfa nemendur að þarfagreina verkefnið: skilgreina hvað
+þarf að leysa, hvernig það tengist námsefninu og hvaða lausn svarar
+matsviðmiðunum. Nemendum er frjálst að nota flóknari aðferðir en kenndar
+eru í námskeiðinu, en þá þurfa þeir að skilja þær og geta rökstutt
+notkun þeirra. Flóknari lausn er ekki sjálfkrafa betri lausn,
+sérstaklega ef teymið missir yfirsýn yfir það sem erindrekinn hefur búið
+til.
+
+\callout{Meginspurningin færist}{%
+
+Frá:
 
 \begin{quote}
 Hvað framleiddi teymið?
 \end{quote}
 
-yfir í:
+Yfir í:
 
 \begin{quote}
 Hvað skilur nemandinn, hvað ákvað hann og hvað sannreyndi hann?
 \end{quote}
 
-Næstu skref felast því ekki endilega í meiri notkun erindreka. Þau
-felast fremur í skýrari afmörkun verkefna, minni og yfirfaranlegri
-erindrekaverkefnum og markvissari ígrundun um hvar mannleg stjórn og
-ábyrgð liggur í vinnuferlinu. Eftir því sem erindrekinn getur gert meira
-verður mikilvægara að nemandinn geti sýnt fram á hvað hann sjálfur
-skilur, ákveður og sannreynir.
+}
+
+Næstu skref felast því ekki endilega í meiri notkun erindreka heldur í
+skýrari afmörkun verkefna, minni og yfirfaranlegri erindrekaverkefnum og
+markvissari ígrundun um hvar mannleg stjórn og ábyrgð liggur í
+vinnuferlinu. Nemendur þurfa ekki aðeins að læra hvernig á að fela
+erindreka verkefni, heldur einnig hvenær verkefnið er orðið of stórt,
+hvenær á að stöðva erindrekann og hvernig á að einfalda lausn sem hefur
+vaxið úr hófi.
+
+Eftir því sem auðveldara verður að framleiða efni verður mikilvægari
+fagleg færni að afmarka hvað á að gera --- og ekki síður hvað á ekki að
+gera.
 
 \bibliographystyle{plainnat}
 \bibliography{references.bib}
