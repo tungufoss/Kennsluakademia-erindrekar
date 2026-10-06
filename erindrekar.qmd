@@ -45,6 +45,10 @@ format:
     include-in-header:
       - text: |
           <link rel="icon" type="image/png" href="quarto/favicon.png">
+    other-links:
+      - text: Glærur
+        icon: easel
+        href: slides/
 ---
 
 # Inngangur
