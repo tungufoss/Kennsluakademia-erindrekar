@@ -2,7 +2,7 @@
 pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 lang: is
 title-theme: "Hvernig kennum við notkun AI-erindreka?"
-subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+subtitle-highlight: "Erindrekinn vinnur,\nnemandinn ber ábyrgð"
 subtitle-position: below
 presenters:
   - name: "Helga Ingimundardóttir"

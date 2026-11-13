@@ -251,6 +251,7 @@ $presentation-slide-text-align:   left;
 }
 
 .subtitle-highlight {
+  white-space: pre-line;
   display: table;
   background: var(--title-highlight-bg);
   color: var(--blue) !important;

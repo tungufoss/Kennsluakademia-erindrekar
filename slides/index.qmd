@@ -2,7 +2,7 @@
 pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 lang: is
 title-theme: "Kennsluhönnun með AI-erindrekum"
-subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+subtitle-highlight: "Erindrekinn vinnur,\nnemandinn ber ábyrgð"
 subtitle-position: below
 presenters:
   - name: "Helga Ingimundardóttir"

@@ -2,7 +2,7 @@
 # Source of the paper: renders article.pdf (through kennsluakademia_conf.cls,
 # keeping generated article.tex) and a web version. Render both with:
 # quarto render article.qmd
-title: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+title: "Erindrekinn vinnur, `<br>`{=html}nemandinn ber ábyrgð"
 conference: Ráðstefna Kennsluakademíu opinberu háskólanna
 address: Saga, Háskóli Íslands
 date: 2026-11-20
@@ -70,6 +70,8 @@ format:
 ::: {.pub-note}
 Erindið var flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30.
 [Útgefið erindi (PDF)](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf) · [Glærur](slides/index.html#/)
+
+Ágripið var jafnframt kynnt fyrir atvinnulíf á [Hugbúnaðarráðstefnu Ský: Hugbúnaðargerð án handskrifaðs kóða](https://www.sky.is/vidburdur/3168-2026-vidburdur-1118) 18. nóvember 2026 ([glærur](slides/sky.html)).
 :::
 :::::
 
@@ -174,3 +176,29 @@ Yfir í:
 Næstu skref felast því ekki endilega í meiri notkun erindreka heldur í skýrari afmörkun verkefna, minni og yfirfaranlegri erindrekaverkefnum og markvissari ígrundun um hvar mannleg stjórn og ábyrgð liggur í vinnuferlinu. Nemendur þurfa ekki aðeins að læra hvernig á að fela erindreka verkefni, heldur einnig hvenær verkefnið er orðið of stórt, hvenær á að stöðva erindrekann og hvernig á að einfalda lausn sem hefur vaxið úr hófi.
 
 Eftir því sem auðveldara verður að framleiða efni verður mikilvægari fagleg færni að afmarka hvað á að gera --- og ekki síður hvað á ekki að gera.
+
+::: {#refs}
+:::
+
+:::::: {.content-visible when-format="html"}
+::: {.ka-cite}
+## Tilvitnun {.unnumbered}
+
+Vinsamlega vitnið í þetta verk sem:
+
+Ingimundardóttir, Helga. 2026. „Erindrekinn vinnur, nemandinn ber ábyrgð.“ *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík, 20. nóvember 2026. <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf>.
+
+BibTeX tilvitnun:
+
+```
+@inproceedings{ingimundardottir2026erindrekar,
+  author = {Ingimundardóttir, Helga},
+  title = {Erindrekinn vinnur, nemandinn ber ábyrgð},
+  booktitle = {Ráðstefna Kennsluakademíu opinberu háskólanna},
+  date = {2026-11-20},
+  address = {Saga, Háskóli Íslands, Reykjavík},
+  url = {https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf}
+}
+```
+:::
+::::::
