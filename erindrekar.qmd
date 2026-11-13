@@ -177,10 +177,10 @@ Næstu skref felast því ekki endilega í meiri notkun erindreka heldur í ský
 
 Eftir því sem auðveldara verður að framleiða efni verður mikilvægari fagleg færni að afmarka hvað á að gera --- og ekki síður hvað á ekki að gera.
 
+:::::: {.content-visible when-format="html"}
 ::: {#refs}
 :::
 
-:::::: {.content-visible when-format="html"}
 ::: {.ka-cite}
 ## Tilvitnun {.unnumbered}
 
