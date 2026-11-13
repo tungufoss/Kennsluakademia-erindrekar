@@ -33,16 +33,18 @@ jobs:
         run: quarto render erindrekar.qmd
 
       - name: Render slides
-        run: quarto render slides/index.qmd
+        run: |
+          quarto render slides/index.qmd
+          quarto render slides/sky.qmd
 
       - name: Collect site
         run: |
           mkdir -p _site/quarto
           cp -r erindrekar.html erindrekar_files erindrekar.pdf kennsluakademia.png _site/
-          cp quarto/kennsluakademia.css quarto/favicon.png _site/quarto/
+          cp quarto/kennsluakademia.css quarto/favicon.svg quarto/logo-short.svg quarto/logo-long.svg _site/quarto/
           cp erindrekar.html _site/index.html
           mkdir -p _site/slides
-          cp -r slides/index.html slides/index_files slides/img _site/slides/
+          cp -r slides/index.html slides/index_files slides/sky.html slides/sky_files slides/sky.css slides/img _site/slides/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

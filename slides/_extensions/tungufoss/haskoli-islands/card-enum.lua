@@ -113,7 +113,9 @@ end
 -- Optional family prefix:  [brands] spotify | …  or  [regular] heart | …
 -- Default family is fa-solid.
 local function fa_item_html(_, blocks)
-  local text = pandoc.utils.stringify(blocks)
+  -- keep inline code as `backticks` so md_inline can render <code>
+  local walked = pandoc.Blocks(blocks):walk({ Code = function(c) return pandoc.Str("`" .. c.text .. "`") end })
+  local text = pandoc.utils.stringify(walked)
 
   -- Split on | into all segments
   local segs = {}

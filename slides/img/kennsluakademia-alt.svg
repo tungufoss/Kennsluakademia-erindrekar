@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="299" height="140" viewBox="0 0 299 140" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Kennsluakademía opinberu háskólanna</title>
+  <desc id="logo-desc">Kennsluakademía opinberu háskólanna.</desc>
+  <g id="logo-symbol" transform="translate(8 20) scale(0.68)">
+    <path fill="#1c3e64" d="M45 2 L45 70 L83 90 L83 22 Z"/>
+    <path fill="#1c3e64" d="M40 2 L40 70 L2 90 L2 22 Z"/>
+    <path fill="#83bdba" d="M45 74 L45 102 L83 122 L83 94 Z"/>
+    <path fill="#83bdba" d="M40 74 L40 102 L2 122 L2 94 Z"/>
+  </g>
+  <g fill="#1c3e64" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="75" y="54" font-size="33px" textLength="185" lengthAdjust="spacingAndGlyphs">KENNSLU</text>
+    <text x="75" y="91" font-size="33px" textLength="212" lengthAdjust="spacingAndGlyphs">AKADEMÍA</text>
+    <text x="75" y="124" font-size="14px" textLength="212" lengthAdjust="spacingAndGlyphs">OPINBERU HÁSKÓLANNA</text>
+  </g>
+</svg>

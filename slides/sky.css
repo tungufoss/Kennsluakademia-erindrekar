@@ -1,0 +1,223 @@
+/* Ský deck accent layer: keeps the HÍ Quarto theme while emphasizing the industry workflow. */
+.reveal .lean-in {
+  color: var(--blue);
+  font-style: normal;
+  font-size: 1.05em;
+  font-weight: 700;
+  border-left: 5px solid var(--teal);
+  padding: .35em 0 .35em .75em;
+  margin-top: 1em;
+}
+.reveal .yellow-takeaway {
+  font-size: 1.08em;
+  line-height: 1.3;
+  padding: .65em .9em;
+  margin-top: .9em;
+}
+.reveal .closing-claim {
+  max-width: 1000px;
+  font-size: 1.75em;
+  line-height: 1.18;
+  font-weight: 600;
+  margin: .8em 0 .55em;
+}
+.reveal .sky-accent {
+  color: var(--secondary);
+  font-weight: 700;
+}
+.reveal .closing-claim + .slide-subtitle {
+  border-top: 3px solid var(--teal);
+  padding-top: .5em;
+  color: var(--blue);
+  font-style: normal;
+  font-size: 1.05em;
+  max-width: 1000px;
+}
+.reveal .team-statement {
+  margin: .25em auto .65em;
+  max-width: 1100px;
+  color: var(--blue);
+  font-size: 1.15em;
+  font-weight: 800;
+  letter-spacing: .01em;
+  text-align: center;
+}
+.reveal .mermaid {
+  margin: .25em auto .6em;
+  max-width: 1100px;
+}
+.reveal .mermaid svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Larger, more colorful compositions for the Ský audience. */
+.reveal .slide-subtitle {
+  color: #10099F;
+  font-style: normal;
+  font-size: .92em;
+}
+.reveal .opening-cards { margin: 1em 0 1.1em; }
+.reveal .tldr-box { margin: 2.2em 0 0; padding: .5em .9em .45em; background: rgba(250, 197, 91, .3); border-left: 7px solid #FAC55B; }
+.reveal .tldr-box .tldr-summary { margin: 0; }
+.reveal .tldr-box .teacher-learning { margin: .3em 0 0; }
+.reveal .tldr-summary {
+  margin: .6em 0 0;
+  color: #10099F;
+  font-size: 1.3em;
+  font-weight: 800;
+  line-height: 1.25;
+  max-width: 1160px;
+}
+.reveal .tldr-label {
+  margin-right: .25em;
+  color: #10099F;
+  background: #FAC55B;
+  padding: .04em .18em;
+  font-size: .82em;
+  letter-spacing: .03em;
+}
+.reveal .teacher-learning {
+  margin: .5em 0 0;
+  color: #4C4C61;
+  font-size: .85em;
+  font-weight: 300;
+  text-align: right;
+}
+.reveal .team-statement {
+  margin: .25em auto .65em;
+  max-width: 1100px;
+  color: var(--blue);
+  font-size: 1.15em;
+  font-weight: 800;
+  letter-spacing: .01em;
+  text-align: center;
+}
+.reveal .mermaid {
+  margin: .25em auto .6em;
+  max-width: 1100px;
+}
+.reveal .mermaid svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Larger, more colorful compositions for the Ský audience. */
+.reveal .slide-subtitle {
+  color: #10099F;
+  font-style: normal;
+  font-size: .92em;
+}
+.reveal .team-statement {
+  margin: .35em auto .8em;
+  padding: .45em .7em;
+  background: #E7F8F5;
+  border-left: 7px solid #2DD2C0;
+  font-size: 1.25em;
+}
+.reveal .lean-in {
+  background: #F0EFFF;
+  border-left-color: #10099F;
+  border-radius: 0 8px 8px 0;
+  padding: .6em .9em;
+  font-size: 1.08em;
+}
+.reveal .steps-row {
+  min-height: 110px;
+  margin: 1em 0 .8em;
+}
+.reveal .oppose-diagram { gap: 10px; }
+.reveal .oppose-head { font-size: 21px; padding-top: 17px; padding-bottom: 17px; }
+.reveal .oppose-arrow { font-size: 21px; line-height: 1.2; padding-top: 17px; padding-bottom: 17px; }
+.reveal .step-chip strong {
+  font-size: 19px;
+}
+.reveal .step-chip span {
+  font-size: 19px;
+  line-height: 1.3;
+}
+.reveal .closing-layout {
+  grid-template-columns: .88fr 1.12fr;
+  align-items: center;
+  gap: 44px;
+  margin-top: .5em;
+}
+.reveal .closing-layout .contact-photo {
+  max-height: 430px;
+  border-radius: 10px;
+  box-shadow: 0 14px 32px rgba(16, 9, 159, .2);
+}
+.reveal .closing-layout .closing-claim {
+  font-size: 1.4em;
+  line-height: 1.22;
+  margin: 0 0 .7em;
+}
+.reveal .closing-layout .discussion-prompt {
+  margin: 0;
+  padding: .7em .85em;
+  background: #FFFFFF;
+  color: #10099F;
+  border-left: 7px solid #FAC55B;
+  font-size: .88em;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.reveal .tldr-summary span:not(.tldr-label) {
+  background: #2DD2C0;
+  color: #10099F;
+  padding: .02em .18em;
+  white-space: nowrap;
+}
+.reveal .win-win {
+  margin: 1.2em 0 0;
+  padding: .55em 1em .6em;
+  background: rgba(250, 197, 91, .3);
+  border-left: 7px solid #FAC55B;
+  color: #10099F;
+  font-size: 1.05em;
+  line-height: 1.3;
+}
+.reveal .win-win p { margin: 0; }
+.reveal .win-win p:first-child { font-weight: 900; font-size: 1.1em; margin-bottom: .2em; }
+.reveal .agent-files-layout { display: grid; grid-template-columns: .72fr 1.6fr; gap: 20px; align-items: center; margin-top: .4em; }
+.reveal .agent-files-cards .fa-card { margin: 0; }
+.reveal .pr-table { width: 100%; margin: 0; table-layout: fixed; font-size: .85em; line-height: 1.25; border-collapse: collapse; }
+.reveal .pr-table th { background: #10099F; color: #fff; text-align: left; padding: 7px 10px; font-weight: 800; }
+.reveal .pr-table td { padding: 6px 8px; vertical-align: top; background: #F5F5F5; border: 0; }
+.reveal .pr-table tbody tr:nth-child(even) td { background: #fff; }
+.reveal .pr-table .pr-muted { color: #6B6B7B; background: #F5F5F5 !important; }
+.reveal .pr-table .pr-phase td { font-weight: 800; padding: 7px 10px; }
+.reveal .pr-table .pr-phase-1 td { background: #2DD2C0 !important; color: #10099F; }
+.reveal .pr-table .pr-phase-2 td { background: #FAC55B !important; color: #262626; }
+.reveal .slide-subtitle a,
+.reveal .slide-subtitle a:visited {
+  color: #10099F;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #2DD2C0;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+.reveal .fa-card-body h3 code { font-size: 1em; font-weight: 700; color: #10099F; background: transparent; padding: 0; }
+.reveal .win-win .hl { background: #2DD2C0; color: #10099F; padding: .02em .18em; white-space: nowrap; }
+.reveal .agent-split { display: grid; grid-template-columns: 2.1fr 1fr; gap: 24px; align-items: center; }
+.reveal .agent-split .oppose-diagram { margin-top: 0; gap: 8px; }
+.reveal .agent-split .oppose-header, .reveal .agent-split .oppose-row { grid-template-columns: 1fr 24px 1fr; }
+.reveal .agent-split .oppose-head { font-size: 17px; padding: 13px 12px; letter-spacing: .03em; }
+.reveal .agent-split .oppose-arrow { font-size: 21px; padding: 15px 14px; }
+.reveal .agent-split-cards .fa-card { margin: 0; }
+.reveal .agent-split-cards .fa-card-body h3 { font-size: 20px !important; }
+.reveal .agent-split-cards .fa-card-body p { font-size: 16px !important; }
+.reveal .win-win.plain p, .reveal .win-win.plain p:first-child { font-weight: 500; font-size: 1em; margin-bottom: 0; }
+.reveal .win-win.plain p + p { margin-top: .3em; }
+.reveal .section-label { margin: .9em 0 .35em; color: #25223E; font-size: .8em; font-weight: 400; }
+.reveal .section-label + .oppose-diagram, .reveal .section-label + .fa-card { margin-top: 0; }
+.reveal .yellow-takeaway { font-weight: 400; }
+.reveal .yellow-takeaway strong { font-weight: 800; }
+.reveal .focus-slide h2.closing-h2,
+.reveal .focus-slide .closing-h2 { font-size: 32px; line-height: 1.15; margin: 0 0 18px; color: #10099F; background: #FC8484; padding: 14px 20px; text-transform: none; text-align: left; }
+.reveal .focus-slide .closing-q { background: #FAC55B; color: #10099F; font-size: 20px; line-height: 1.25; font-weight: 700; padding: 10px 16px; margin: 0 0 10px; text-align: left; }

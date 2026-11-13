@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="299" height="108" viewBox="0 0 299 108" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Kennsluakademía</title>
+  <g transform="translate(0 16.2) scale(0.84)">
+    <g id="logo-symbol" transform="translate(8 20) scale(0.68)">
+      <path fill="#ffffff" d="M45 2 L45 70 L83 90 L83 22 Z"/>
+      <path fill="#ffffff" d="M40 2 L40 70 L2 90 L2 22 Z"/>
+      <path fill="#ffffff" d="M45 74 L45 102 L83 122 L83 94 Z"/>
+      <path fill="#ffffff" d="M40 74 L40 102 L2 122 L2 94 Z"/>
+    </g>
+    <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      <text x="75" y="54" font-size="33px" textLength="185" lengthAdjust="spacingAndGlyphs">KENNSLU</text>
+      <text x="75" y="91" font-size="33px" textLength="212" lengthAdjust="spacingAndGlyphs">AKADEMÍA</text>
+    </g>
+  </g>
+</svg>

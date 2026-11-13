@@ -1,8 +1,8 @@
 ---
 pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 lang: is
-title-theme: "Kennsluhönnun með AI-erindrekum"
-subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+title-theme: "Erindrekinn vinnur, nemandinn ber ábyrgð"
+subtitle-highlight: "Kennsluhönnun með AI-erindrekum"
 subtitle-position: below
 presenters:
   - name: "Helga Ingimundardóttir"
@@ -13,14 +13,93 @@ presenters:
 event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Háskóli Íslands"
 event-date: "20. nóvember 2026"
 watermark: img/hi/hi_logo.svg
-favicon: ../quarto/favicon.png
+favicon: ../quarto/favicon.svg
 format:
   haskoli-islands-revealjs:
+    slide-number: "c/t"
+    show-slide-number: all
+    include-in-header:
+      - text: |
+          <style>
+          .reveal .win-win{margin:1.2em 0 0;padding:.55em 1em .6em;background:rgba(250,197,91,.3);border-left:7px solid #FAC55B;color:#10099F;font-size:.85em;line-height:1.3;font-weight:900}
+          .reveal .win-win p{margin:0}
+          .reveal .win-win .hl{background:#2DD2C0;color:#10099F;padding:.02em .18em;white-space:nowrap}
+          .reveal .agent-callout{margin:34px 0 0;font-size:.62em}
+          .reveal .agent-callout .callout{max-width:none;width:100%;box-sizing:border-box;margin:0;padding:16px 26px;background:var(--yellow);color:var(--blue)}
+          .reveal .agent-callout p{margin:0;font-weight:500}
+          .reveal .agent-callout p:first-child{font-weight:800}
+          .reveal .agent-callout p+p{margin-top:.35em}
+          .reveal .agent-triple{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
+          .reveal .agent-triple .oppose-diagram{margin-top:0}
+          .reveal .agent-triple .oppose-header,.reveal .agent-triple .oppose-row{grid-template-columns:1fr 46px 1fr}
+          .reveal .agent-triple .oppose-head--center{padding:0;justify-content:center;text-align:center}
+          .reveal .agent-triple .agent-shot{text-align:center}
+          .reveal .agent-triple .agent-shot p{margin:0}
+          .reveal .agent-triple .agent-shot img{display:block;height:290px;width:auto;margin:0 auto;border-radius:8px}
+          .reveal .slide-logo{left:auto!important;right:92px!important;width:74px!important;height:36px!important;object-fit:contain!important;top:auto!important;bottom:11px!important;transform:none!important}
+          .reveal .footer::before{content:"";position:fixed;left:auto;right:184px;top:auto;bottom:9px;width:108px;height:39px;background:url("../quarto/logo-short.svg") center/contain no-repeat;filter:brightness(0) invert(1);z-index:101}
+          .reveal.has-logo .slide-number{left:auto!important;right:18px!important;top:auto!important;bottom:12px!important;z-index:110!important;color:#fff!important;background:transparent!important}
+          .reveal:has(.slides>section:first-child.present) .slide-number{display:none!important}
+          </style>
+
     logo: img/hi/hi_named_logo-is.svg
-    footer: "Kennsluakademían 2026 · Helga Ingimundardóttir"
+    footer: "Erindrekinn vinnur, nemandinn ber ábyrgð · Helga Ingimundardóttir"
 ---
 
 {{< hi-title >}}
+
+## Tilkoma spunagreindar og mat á hæfni
+
+::: {.oppose left="Það sem við sjáum" right="Hvernig getum við brugðist við" left-icon="eye" right-icon="lightbulb"}
+- Nánast fullkomin verkefnaskil, en illa gengur í prófum | Nemendur skjala notkun gervigreindar
+- Kennarar færast aftur í skrifleg próf | Ítarlegt rýnisferli
+- Erfitt að rengja notkun, svo gerum ráð fyrir henni | Meiri munnleg yfirferð
+:::
+
+::: {.win-win}
+Erum við að meta hæfni nemenda, eða [aðgang að áskrift]{.hl}?
+:::
+
+::: {.notes}
+- Hugleiðing í lokin til að opna umræðu, ekki niðurstaða úr rannsókn.
+- Við sjáum nemendur skila nánast fullkomnum verkefnum en ganga illa á prófum. Þess vegna eru kennarar að færast aftur úr heimaverkefnum í skrifleg próf, því nemendur nota spunagreind.
+- Kennarar mega "banna" gervigreind í sínum áföngum, en það er erfitt að rengja notkun hennar. Raunhæfara er að ganga út frá því að nemendur noti hana. Spurningin er hvernig við metum hæfni nemenda núna.
+- Mín hugmynd: láta nemendur skjala notkun gervigreindar, fara í gegnum ítarlegt rýnisferli og fela meira í munnlega yfirferð.
+- Munnleg yfirferð er tímafrek fyrir marga nemendur og erfitt að útfæra reglulega. Þetta er opin spurning, ekki lausn.
+- Erum við að meta hæfni nemenda, eða aðgang að áskrift?
+:::
+
+## Hvað er AI-erindreki?
+
+:::: {.agent-triple}
+::: {.agent-shot}
+![](img/chat-mode.png)
+:::
+
+::: {.oppose left="Chat" right="Work" left-icon="comments" right-icon="robot"}
+- Svarar spurningum | Tekur verkefni að sér
+- Samhengi er samtalið | Samhengi er verkefnið
+- Engin verkfæri | Skrár, skipanir, prófanir
+- Notandinn ber ábyrgð | Notandinn sannreynir
+:::
+
+::: {.agent-shot}
+![](img/work-mode.png)
+:::
+::::
+
+::: {.callout .agent-callout}
+Chat svarar. Work getur tekið verkefni að sér.
+
+Erindreki vinnur í samhengi verkefnisins og notar verkfæri. Manneskjan stýrir, sannreynir og ber ábyrgð.
+:::
+
+::: {.notes}
+- Chat er spjallið; Work er vinnusvæðið sem tekur við verkefni og getur nýtt samhengi og verkfæri.
+- Sams konar framkvæmdamiðuð nálgun er í Codex og Claude Code.
+- Erindrekinn getur breytt mörgum skrám og keyrt verkfæri. Hann skilar vinnu sem manneskja þarf að yfirfara.
+- Næsta glæra sýnir hvernig ég tengi þetta við Git-vinnuferli nemenda.
+:::
 
 ## Námsmarkmiðið er faglegt vinnuferli
 
@@ -41,6 +120,32 @@ Notkun AI-erindreka í fyrirtækjum vex hratt og er að verða nýr staðall. Vi
 - Útskýra niðurstöðuna
 - Taka ábyrgð á lokaafurðinni
 :::
+
+Svona tengist notkun erindreka Git-vinnuferli nemenda:
+
+```{mermaid}
+%%| label: agent-review-flow
+%%| fig-align: center
+%%| out-width: 100%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Jost, sans-serif", "fontSize": "15px", "lineColor": "#10099F"}, "flowchart": {"curve": "linear", "nodeSpacing": 12, "rankSpacing": 18, "padding": 8}}}%%
+flowchart LR
+    A["Eigin grein / draft PR<br/>Issue og skýr fyrirmæli"] --> B["Erindreki leggur til<br/>afmarkaða lausn"]
+    B --> C["Eigin yfirferð<br/>Lesa · prófa · skrá"]
+    C -- "lagfæringar" --> B
+    C -- "tilbúið" --> D["Ready for review<br/>tveir teymisfélagar rýna"]
+    D -- "athugasemdir" --> B
+    D -- "samþykki" --> E["Sameining<br/>skv. reglum geymslunnar"]
+    classDef start fill:#10099F,stroke:#10099F,color:#FFFFFF,stroke-width:2px
+    classDef agent fill:#2DD2C0,stroke:#10099F,color:#10099F,stroke-width:2px
+    classDef self fill:#FAC55B,stroke:#10099F,color:#262626,stroke-width:2px
+    classDef team fill:#FFA05F,stroke:#10099F,color:#262626,stroke-width:2px
+    classDef done fill:#FC8484,stroke:#10099F,color:#262626,stroke-width:2px
+    class A start
+    class B agent
+    class C self
+    class D team
+    class E done
+```
 
 ## Erindrekinn og nemandinn
 

@@ -39,16 +39,31 @@ format:
     csl: quarto/apa.csl
     link-citations: true
     reference-section-title: Tilvísanir
+    language:
+      other-links-title: Tengt efni
+      related-formats-title: Sækja erindið
     css: quarto/kennsluakademia.css
     template-partials:
       - quarto/title-block.html
     include-in-header:
       - text: |
-          <link rel="icon" type="image/png" href="quarto/favicon.png">
+          <link rel="icon" type="image/svg+xml" href="quarto/favicon.svg">
     other-links:
       - text: Glærur
         icon: easel
-        href: slides/
+        href: slides/index.html#/
+      - text: Útgefið erindi
+        icon: file-earmark-pdf
+        href: https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf
+      - text: Ráðstefna Kennsluakademíu
+        icon: calendar-event
+        href: https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/
+      - text: Ráðstefna Ský
+        icon: calendar-event
+        href: https://www.sky.is/vidburdur/3168-2026-vidburdur-1118
+      - text: Glærur Ský
+        icon: easel
+        href: slides/sky.html
 ---
 
 # Inngangur
