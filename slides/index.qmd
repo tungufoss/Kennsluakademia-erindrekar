@@ -23,19 +23,20 @@ format:
           <style>
           .reveal .win-win{margin:1.2em 0 0;padding:.55em 1em .6em;background:rgba(250,197,91,.3);border-left:7px solid #FAC55B;color:#10099F;font-size:.85em;line-height:1.3;font-weight:900}
           .reveal .win-win p{margin:0}
+          .reveal .win-win p+p{margin-top:.5em}
           .reveal .win-win .hl{background:#2DD2C0;color:#10099F;padding:.02em .18em;white-space:nowrap}
-          .reveal .agent-callout{margin:34px 0 0;font-size:.62em}
+          .reveal .agent-callout{margin:72px 0 0;font-size:.7em}
           .reveal .agent-callout .callout{max-width:none;width:100%;box-sizing:border-box;margin:0;padding:16px 26px;background:var(--yellow);color:var(--blue)}
           .reveal .agent-callout p{margin:0;font-weight:500}
           .reveal .agent-callout p:first-child{font-weight:800}
           .reveal .agent-callout p+p{margin-top:.35em}
-          .reveal .agent-triple{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
+          .reveal .agent-triple{margin-top:40px;display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
           .reveal .agent-triple .oppose-diagram{margin-top:0}
           .reveal .agent-triple .oppose-header,.reveal .agent-triple .oppose-row{grid-template-columns:1fr 46px 1fr}
           .reveal .agent-triple .oppose-head--center{padding:0;justify-content:center;text-align:center}
           .reveal .agent-triple .agent-shot{text-align:center}
           .reveal .agent-triple .agent-shot p{margin:0}
-          .reveal .agent-triple .agent-shot img{display:block;height:290px;width:auto;margin:0 auto;border-radius:8px}
+          .reveal .agent-triple .agent-shot img{display:block;height:315px;width:auto;margin:0 auto;border-radius:8px}
           .reveal .slide-logo{left:auto!important;right:92px!important;width:74px!important;height:36px!important;object-fit:contain!important;top:auto!important;bottom:11px!important;transform:none!important}
           .reveal .footer::before{content:"";position:fixed;left:auto;right:184px;top:auto;bottom:9px;width:108px;height:39px;background:url("../quarto/logo-short.svg") center/contain no-repeat;filter:brightness(0) invert(1);z-index:101}
           .reveal.has-logo .slide-number{left:auto!important;right:18px!important;top:auto!important;bottom:12px!important;z-index:110!important;color:#fff!important;background:transparent!important}
@@ -58,6 +59,8 @@ format:
 
 ::: {.win-win}
 Erum við að meta hæfni nemenda, eða [aðgang að áskrift]{.hl}?
+
+Eða erum við að fara aftur úr símati í 100% próf, því við viljum ekki veita [Claude eða Codex]{.hl} háskólagráðu?
 :::
 
 ::: {.notes}
@@ -67,6 +70,7 @@ Erum við að meta hæfni nemenda, eða [aðgang að áskrift]{.hl}?
 - Mín hugmynd: láta nemendur skjala notkun gervigreindar, fara í gegnum ítarlegt rýnisferli og fela meira í munnlega yfirferð.
 - Munnleg yfirferð er tímafrek fyrir marga nemendur og erfitt að útfæra reglulega. Þetta er opin spurning, ekki lausn.
 - Erum við að meta hæfni nemenda, eða aðgang að áskrift?
+- Eða erum við að fara aftur úr símati í 100% próf, því við viljum ekki veita Claude eða Codex háskólagráðu?
 :::
 
 ## Hvað er AI-erindreki?

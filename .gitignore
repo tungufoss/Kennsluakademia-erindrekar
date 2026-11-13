@@ -16,3 +16,4 @@
 *.out
 *.synctex.gz
 /_site/
+/slides/sky-standalone.html
