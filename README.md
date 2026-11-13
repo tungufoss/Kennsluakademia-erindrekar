@@ -6,14 +6,14 @@ Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild, Háskóli Ís
 [Ráðstefna Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/), Saga, Háskóli Íslands, 20. nóvember 2026  
 Málstofa 1: **Gervigreind og ábyrgð í námi**, S-261, kl. 9:00–10:30
 
-> Erindið hefur einnig verið aðlagað sem 15 mínútna útgáfa fyrir [Hugbúnaðarráðstefnu Ský: Hugbúnaðargerð án handskrifaðs kóða](https://www.sky.is/vidburdur/3168-2026-vidburdur-1118), 18. nóvember 2026. Undirfyrirsögn: **Faglegt vinnulag með AI-erindrekum**.
+> Ágripið var jafnframt kynnt fyrir atvinnulíf á [Hugbúnaðarráðstefnu Ský: Hugbúnaðargerð án handskrifaðs kóða](https://www.sky.is/vidburdur/3168-2026-vidburdur-1118), 18. nóvember 2026 (15 mínútna útgáfa). Undirfyrirsögn: **Faglegt vinnulag með AI-erindrekum**.
 
 ## Tengt efni
 
-- **Útgefið erindi (PDF):** [erindrekar-1.pdf](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf)
-- **Afrit (PDF):** [erindrekar.pdf](erindrekar.pdf)
 - **Vefútgáfa:** [Kennsluakademía – erindið](https://tungufoss.github.io/Kennsluakademia-erindrekar/)
-- **Glærur Kennsluakademíu:** [slides/](https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/)
+- **Glærur:** [slides/](https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/)
+- **Útgefið erindi (PDF):** [erindrekar-1.pdf](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf)
+- **Ráðstefna Kennsluakademíu:** [radstefna-kennsluakademiunnar](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/)
 - **Ráðstefna Ský:** [Hugbúnaðargerð án handskrifaðs kóða](https://www.sky.is/vidburdur/3168-2026-vidburdur-1118)
 - **Glærur Ský:** [slides/sky.html](https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/sky.html)
 
@@ -25,17 +25,16 @@ AI-erindrekar geta tekið við markmiði, lesið samhengi verkefnis, breytt skr�
 
 ## Vinsamlega vitnið í þetta verk sem
 
-Ingimundardóttir, H. (2026). *Erindrekinn vinnur, nemandinn ber ábyrgð*. Ráðstefna Kennsluakademíu opinberu háskólanna, Háskóli Íslands, Reykjavík.
+Ingimundardóttir, Helga. 2026. „Erindrekinn vinnur, nemandinn ber ábyrgð.“ *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík, 20. nóvember 2026. <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf>.
 
 ```bibtex
-@inproceedings{Ingimundardottir2026Erindrekinn,
-  author    = {Ingimundardóttir, Helga},
-  title     = {Erindrekinn vinnur, nemandinn ber ábyrgð},
+@inproceedings{ingimundardottir2026erindrekar,
+  author = {Ingimundardóttir, Helga},
+  title = {Erindrekinn vinnur, nemandinn ber ábyrgð},
   booktitle = {Ráðstefna Kennsluakademíu opinberu háskólanna},
-  address   = {Háskóli Íslands, Reykjavík},
-  month     = nov,
-  year      = {2026},
-  url       = {https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf}
+  date = {2026-11-20},
+  address = {Saga, Háskóli Íslands, Reykjavík},
+  url = {https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf}
 }
 ```
 
