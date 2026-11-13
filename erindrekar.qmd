@@ -4,7 +4,7 @@
 # quarto render article.qmd
 title: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 conference: Ráðstefna Kennsluakademíu opinberu háskólanna
-address: Veröld Háskóla Íslands
+address: Saga, Háskóli Íslands
 date: 2026-11-20
 date-format: "D MMMM, YYYY"
 lang: is
