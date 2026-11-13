@@ -1,8 +1,8 @@
 ---
 pagetitle: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 lang: is
-title-theme: "Erindrekinn vinnur, nemandinn ber ábyrgð"
-subtitle-highlight: "Kennsluhönnun með AI-erindrekum"
+title-theme: "Kennsluhönnun með AI-erindrekum"
+subtitle-highlight: "Erindrekinn vinnur, nemandinn ber ábyrgð"
 subtitle-position: below
 presenters:
   - name: "Helga Ingimundardóttir"
@@ -13,7 +13,7 @@ presenters:
 event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Háskóli Íslands"
 event-date: "20. nóvember 2026"
 watermark: img/hi/hi_logo.svg
-favicon: ../quarto/favicon.svg
+favicon: img/favicon.svg
 format:
   haskoli-islands-revealjs:
     slide-number: "c/t"
@@ -21,24 +21,66 @@ format:
     include-in-header:
       - text: |
           <style>
-          .reveal .win-win{margin:1.2em 0 0;padding:.55em 1em .6em;background:rgba(250,197,91,.3);border-left:7px solid #FAC55B;color:#10099F;font-size:.85em;line-height:1.3;font-weight:900}
+          .reveal .win-win{margin:3em 0 0;padding:.8em 1.2em .85em;background:rgba(250,197,91,.3);border-left:7px solid #FAC55B;color:#10099F;font-size:1em;line-height:1.3;font-weight:900}
           .reveal .win-win p{margin:0}
-          .reveal .win-win p+p{margin-top:.5em}
+          .reveal .win-win p+p{margin-top:.45em;font-weight:500}
+          .reveal .win-win+.win-win{margin-top:1.4em}
+          .reveal .assess-table{margin-top:34px}
+          .reveal .win-win.light{font-weight:400}
+          .reveal .context-box{margin:.8em 0 0;padding:.6em 1.1em;background:rgba(45,210,192,.18);border-left:7px solid #2DD2C0;color:#10099F;font-size:1em;line-height:1.3;font-weight:600}
+          .reveal .context-box.blue{background:rgba(16,9,159,.1);border-left-color:#10099F;color:#10099F}
+          .reveal .pr-card{margin-top:16px}
+          .reveal .context-box+.context-box{margin-top:.5em}
+          .reveal .context-box+.win-win{margin-top:.8em}
+          .reveal .slide-subtitle{color:#10099F;font-style:normal;font-size:.92em}
+          .reveal .slide-subtitle a,.reveal .slide-subtitle a:visited{color:#10099F;font-weight:700;text-decoration:underline;text-decoration-color:#2DD2C0;text-decoration-thickness:3px;text-underline-offset:4px}
+          .reveal .agent-files-layout{display:grid;grid-template-columns:.72fr 1.6fr;gap:20px;align-items:center;margin-top:.4em}
+          .reveal .agent-files-cards .fa-card{margin:0}
+          .reveal .fa-card-body h3 code{font-size:1em;font-weight:700;color:#10099F;background:transparent;padding:0}
+          .reveal .pr-table{width:100%;margin:0;table-layout:fixed;font-size:.85em;line-height:1.25;border-collapse:collapse}
+          .reveal .pr-table th{background:#10099F;color:#fff;text-align:left;padding:7px 10px;font-weight:800}
+          .reveal .pr-table td{padding:6px 8px;vertical-align:top;background:#F5F5F5;border:0}
+          .reveal .pr-table tbody tr:nth-child(even) td{background:#fff}
+          .reveal .pr-table .pr-muted{color:#6B6B7B;background:#F5F5F5!important}
+          .reveal .pr-table .pr-phase td{font-weight:800;padding:7px 10px}
+          .reveal .pr-table .pr-phase-1 td{background:#2DD2C0!important;color:#10099F}
+          .reveal .pr-table .pr-phase-2 td{background:#FAC55B!important;color:#262626}
+          .reveal .agent-split{display:grid;grid-template-columns:2.1fr 1fr;gap:24px;align-items:center}
+          .reveal .agent-split .oppose-diagram{margin-top:0;gap:8px}
+          .reveal .agent-split .oppose-header,.reveal .agent-split .oppose-row{grid-template-columns:1fr 24px 1fr}
+          .reveal .agent-split .oppose-head{font-size:15px;padding:11px 12px;letter-spacing:.03em}
+          .reveal .agent-split .oppose-arrow{font-size:16px;padding:11px 12px}
+          .reveal .agent-split-cards .fa-card{margin:0}
+          .reveal .agent-split+.win-win{margin-top:1em}
+          .reveal .agent-split-cards .fa-card-body h3{font-size:20px!important}
+          .reveal .agent-split-cards .fa-card-body p{font-size:16px!important}
+          .reveal .section-label{margin:.9em 0 .35em;color:#25223E;font-size:.8em;font-weight:400}
+          .reveal .section-label p{margin:0}
+          .reveal .yellow-takeaway{font-weight:400}
+          .reveal .yellow-takeaway strong{font-weight:800}
+          .reveal .closing-link{margin:.6em 0 .9em;font-size:15px;line-height:1.35;color:#10099F;background:rgba(255,255,255,.92);padding:.5em .8em;text-align:left}
+          .reveal .closing-link a,.reveal .closing-link a:visited{color:#10099F;font-weight:700;text-decoration:underline;text-decoration-color:#2DD2C0;text-decoration-thickness:3px;text-underline-offset:3px}
+          .reveal .focus-slide .closing-q{background:#FAC55B;color:#10099F;font-size:22px;line-height:1.25;font-weight:700;padding:14px 18px;margin:0 0 10px;text-align:left}
           .reveal .win-win .hl{background:#2DD2C0;color:#10099F;padding:.02em .18em;white-space:nowrap}
-          .reveal .agent-callout{margin:72px 0 0;font-size:.7em}
+          .reveal .agent-cards{margin-top:26px}
+          .reveal .agent-cards .fa-card-item{position:relative;overflow:hidden}
+          .reveal .agent-cards .fa-card-item::after{position:absolute;right:10px;bottom:-6px;font-family:"Font Awesome 6 Free";font-weight:900;font-size:58px;line-height:1;color:rgba(16,9,159,.08);pointer-events:none;letter-spacing:.15em}
+          .reveal .agent-cards .fa-card-item:nth-child(1)::after,.reveal .agent-cards .fa-card-item:nth-child(2)::after{content:""}
+          .reveal .agent-cards .fa-card-item:nth-child(3)::after{content:""}
+          .reveal .agent-callout{margin:26px 0 0;font-size:.7em}
           .reveal .agent-callout .callout{max-width:none;width:100%;box-sizing:border-box;margin:0;padding:16px 26px;background:var(--yellow);color:var(--blue)}
           .reveal .agent-callout p{margin:0;font-weight:500}
           .reveal .agent-callout p:first-child{font-weight:800}
           .reveal .agent-callout p+p{margin-top:.35em}
-          .reveal .agent-triple{margin-top:40px;display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
+          .reveal .agent-triple{margin-top:24px;display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}
           .reveal .agent-triple .oppose-diagram{margin-top:0}
           .reveal .agent-triple .oppose-header,.reveal .agent-triple .oppose-row{grid-template-columns:1fr 46px 1fr}
           .reveal .agent-triple .oppose-head--center{padding:0;justify-content:center;text-align:center}
           .reveal .agent-triple .agent-shot{text-align:center}
           .reveal .agent-triple .agent-shot p{margin:0}
-          .reveal .agent-triple .agent-shot img{display:block;height:315px;width:auto;margin:0 auto;border-radius:8px}
+          .reveal .agent-triple .agent-shot img{display:block;height:250px;width:auto;margin:0 auto;border-radius:8px}
           .reveal .slide-logo{left:auto!important;right:92px!important;width:74px!important;height:36px!important;object-fit:contain!important;top:auto!important;bottom:11px!important;transform:none!important}
-          .reveal .footer::before{content:"";position:fixed;left:auto;right:184px;top:auto;bottom:9px;width:108px;height:39px;background:url("../quarto/logo-short.svg") center/contain no-repeat;filter:brightness(0) invert(1);z-index:101}
+          .reveal .footer::before{content:"";position:fixed;left:auto;right:184px;top:auto;bottom:9px;width:108px;height:39px;background:url("img/logo-short.svg") center/contain no-repeat;filter:brightness(0) invert(1);z-index:101}
           .reveal.has-logo .slide-number{left:auto!important;right:18px!important;top:auto!important;bottom:12px!important;z-index:110!important;color:#fff!important;background:transparent!important}
           .reveal:has(.slides>section:first-child.present) .slide-number{display:none!important}
           </style>
@@ -51,16 +93,20 @@ format:
 
 ## Tilkoma spunagreindar og mat á hæfni
 
+:::: {.assess-table}
 ::: {.oppose left="Það sem við sjáum" right="Hvernig getum við brugðist við" left-icon="eye" right-icon="lightbulb"}
 - Nánast fullkomin verkefnaskil, en illa gengur í prófum | Nemendur skjala notkun gervigreindar
 - Kennarar færast aftur í skrifleg próf | Ítarlegt rýnisferli
 - Erfitt að rengja notkun, svo gerum ráð fyrir henni | Meiri munnleg yfirferð
 :::
+::::
 
 ::: {.win-win}
 Erum við að meta hæfni nemenda, eða [aðgang að áskrift]{.hl}?
+:::
 
-Eða erum við að fara aftur úr símati í 100% próf, því við viljum ekki veita [Claude eða Codex]{.hl} háskólagráðu?
+::: {.win-win .light}
+Eða erum við að fara aftur úr símati í 100% próf, því við viljum ekki veita Claude eða Codex háskólagráðu?
 :::
 
 ::: {.notes}
@@ -92,6 +138,14 @@ Eða erum við að fara aftur úr símati í 100% próf, því við viljum ekki 
 :::
 ::::
 
+::: {.agent-cards}
+::: {.fa-card cols=3}
+- code | **Breyta** | Skrifa kóða og vinna í mörgum skrám
+- terminal | **Prófa** | Keyra skipanir og prófanir
+- list-check | **Skila** | Undirbúa lausn og leggja til næstu skref
+:::
+:::
+
 ::: {.callout .agent-callout}
 Chat svarar. Work getur tekið verkefni að sér.
 
@@ -105,15 +159,42 @@ Erindreki vinnur í samhengi verkefnisins og notar verkfæri. Manneskjan stýrir
 - Næsta glæra sýnir hvernig ég tengi þetta við Git-vinnuferli nemenda.
 :::
 
-## Námsmarkmiðið er faglegt vinnuferli
+## Kóðarýni með PR: feimni við að gagnrýna jafningja
 
-Notkun AI-erindreka í fyrirtækjum vex hratt og er að verða nýr staðall. Við þurfum að undirbúa nemendur fyrir vinnu með þeim.
-
-::: {.fa-card cols=3}
-- code | **Breyta** | Skrifa kóða og vinna í mörgum skrám
-- terminal | **Prófa** | Keyra skipanir og prófanir
-- list-check | **Skila** | Undirbúa lausn og leggja til næstu skref
+::: {.oppose left="Vandinn" right="Hugmyndin" left-icon="user-group" right-icon="robot"}
+- Nemendur sjá að lausn er gölluð, en vilja ekki setja út á vinnu jafningja | Þau rýna verk erindreka teymisfélaga, ekki teymisfélagann
+- Skrifleg athugasemd er upplifuð sem áfellisdómur | Athugasemd við verk erindreka er ekki persónuleg
+- Rýnin verður yfirborðsleg í stað efnislegrar | Efnisleg rýni og stýring erindreka æfast saman
 :::
+
+::: {.context-box .blue}
+Kóðarýni er algeng í atvinnulífinu en lítið kennd, og hluti af faglegri hæfni.
+:::
+
+::: {.context-box}
+Notkun AI-erindreka vex hratt og verður nýr staðall.
+:::
+
+::: {.win-win}
+**Tvær flugur í einu höggi**
+
+Nemendur æfa uppbyggilega rýni án feimni og læra um leið að vinna með erindrekum.
+:::
+
+::: {.notes}
+- Tími: 3:00
+- Ég hef kennt nemendum Git-vinnuflæði og kóðarýni með PR. Það hefur gengið upp og ofan.
+- Kóðarýni er mjög eðlilegur og tíðkaður þáttur í hugbúnaðargerð í atvinnulífinu, en er lítið kynnt fyrir nemendum. Hún er hluti af faglegri hæfni sem ég er að kenna.
+- Notkun AI-erindreka í fyrirtækjum vex hratt og er að verða nýr staðall. Við þurfum að undirbúa nemendur fyrir vinnu með þeim.
+- Vandinn er ekki að þau sjái ekki að eitthvað sé að lausn. Þau vilja ekki setja út á vinnu jafningja, eins og skrifleg athugasemd sé áfellisdómur.
+- Ég reyni að tala þau af þessu: þetta er iðnaðarstaðall, og ef við erum uppbyggileg er rýnin holl og gagnleg fyrir alla, bæði þá sem rýna og þá sem eru rýndir.
+- Hugmyndin: í stað þess að rýna efni sem samnemandi skrifaði rýna þau efni sem "þjarkur" á vegum samnemanda skrifaði. Þá eru þau kannski ekki jafn feimin, og um leið kennum við hvernig á að nota erindreka.
+- Næsta glæra sýnir hvernig þetta lítur út í þriggja manna teymi.
+- Win-win: iðnaðurinn er að þróast í notkun erindreka og við getum vonandi kennt nemendum réttu tökin (eða í áttina að þeim) sem hluta af þjálfun.
+- Þetta er hugmynd sem ég er að prófa, ekki niðurstaða úr rannsókn.
+:::
+
+## Námsmarkmiðið er faglegt vinnuferli
 
 Í IÐN302G læra nemendur faglegt vinnuferli með eigin gögn í teymum:
 
@@ -151,8 +232,62 @@ flowchart LR
     class E done
 ```
 
+Lagfæringar fara aftur í eigin yfirferð áður en rýni teymisins heldur áfram.
+
+Samhengi:
+
+::: {.fa-card cols=3}
+- code-pull-request | **PR (pull request)** | Tillaga að breytingu á kóða sem aðrir rýna og samþykkja áður en hún er sameinuð í verkefnið.
+- users | **Teymisnám (TBL)** | Nemendur vinna saman og skipta með sér verkum.
+- scale-balanced | **Deila og drottna** | GitHub PR tryggir að allir nái hæfniviðmiðum, þótt verkum sé skipt.
+:::
+
+## Verklag fyrir nemendur
+
+:::: {.agent-files-layout}
+::: {.agent-files-cards}
+::: {.fa-card cols=1}
+- file-lines | `AGENTS.md` | Varanleg fyrirmæli um hvernig erindrekinn á að vinna í verkefninu.
+- pen | `AGENT_LOG.md` | Ígrundun nemandans um hvernig hann notaði erindrekann: fyrirmæli, tól, prófanir, eigin yfirferð og óvissa.
+- screwdriver-wrench | **Skills · síðar** | Endurnýtanlegt verklag fyrir stærri eða endurtekin verkefni.
+:::
+:::
+
+::: {.agent-files-table}
+
+```{=html}
+<table class="pr-table">
+<colgroup><col style="width:42%"><col style="width:29%"><col style="width:29%"></colgroup>
+<thead><tr><th>Nemandi</th><th>Erindreki</th><th>Teymisfélagar</th></tr></thead>
+<tbody>
+<tr class="pr-phase pr-phase-1"><td colspan="3">1. Eigin grein / draft PR · nemandinn fer yfir fyrst</td></tr>
+<tr><td><strong>Afmarkar verkefnið.</strong> Skráir skýr fyrirmæli, t.d. í issue. Vinnur á eigin grein; getur opnað draft PR.</td><td>Leggur til lausn út frá fyrirmælum nemandans.</td><td class="pr-muted" rowspan="2">Engin formleg rýni enn.</td></tr>
+<tr><td><strong>Les og prófar.</strong> Biður um lagfæringar þar til hann skilur lausnina og hún virkar. Skráir AI-notkun.</td><td>Útskýrir og lagfærir eftir athugasemdum nemandans.</td></tr>
+<tr class="pr-phase pr-phase-2"><td colspan="3">2. Ready for review · nú rýnir teymið</td></tr>
+<tr><td><strong>Óskar eftir rýni.</strong> Opnar PR til rýni eða merkir draft PR Ready for review.</td><td></td><td><strong>Rýna breytingarnar.</strong> Senda athugasemdir.</td></tr>
+<tr><td><strong>Lagar og prófar aftur.</strong> Svarar athugasemdum rýnenda.</td><td>Aðstoðar við lagfæringar eftir þörfum.</td><td><strong>Yfirfara lagfæringar og samþykkja.</strong></td></tr>
+<tr><td><strong>Sameinar eftir samþykki</strong> samkvæmt reglum geymslunnar.</td><td></td><td></td></tr>
+</tbody>
+</table>
+```
+
+:::
+::::
+
+<p class="slide-subtitle">Opið kennsluefni námskeiðsins: <a href="https://hi-idn.github.io/IDN302G/ai-tools/">hi-idn.github.io/IDN302G/ai-tools</a></p>
+
+::: {.notes}
+- Tími: 1:30
+- Nemendur rugla stundum þessum skrám saman af því heitin eru lík.
+- AGENTS.md geymir leiðbeiningar sem eiga að gilda í verkefninu. Hún er ekki skrá yfir hvað gerðist í einu PR.
+- AGENT_LOG.md er stutt skrá yfir notkunina í þessu PR: fyrirmæli, hvaða verkfæri var notað, hvað breyttist, hvað var prófað og hvað þarf enn að athuga.
+- Taflan sýnir verklagið sem nemendur fá: hver gerir hvað, þú, erindrekinn og teymisfélagarnir. Þetta er í raun hvernig ég kenni notkun erindreka.
+- Skills eru næsta lag: endurnýtanleg verklag fyrir ákveðin verk. Ég kynni þau þegar nemendur eru orðnir öruggari með grunnferlið.
+:::
+
 ## Erindrekinn og nemandinn
 
+:::: {.agent-split}
 ::: {.oppose left="Erindrekinn getur" right="Nemandinn þarf að geta" left-icon="robot" right-icon="user"}
 - Skrifað og breytt kóða | Útskýrt hvað kóðinn gerir
 - Breytt mörgum skrám hratt | Afmarkað nauðsynlegar breytingar
@@ -160,6 +295,28 @@ flowchart LR
 - Samið skýrslu | Metið fullyrðingar, rök og niðurstöður
 - Unnið hratt og sjálfstætt | Stöðvað, einfaldað og breytt um stefnu
 - Búið til sannfærandi lausn | Sannreynt lausnina og tekið ábyrgð
+:::
+
+::: {.agent-split-cards}
+::: {.fa-card cols=1}
+- user-graduate | **Junior developer** | Nemendur eru eins og nýliðar sem erfa kóða sem aðrir skrifuðu.
+- robot | **Í atvinnulífinu** | Erindrekar skrifa sífellt meira af kóðanum; fagfólk les, prófar og ber ábyrgð.
+- scale-balanced | **Hæfni sem fæst með reynslu** | Nemendur samþykkja PR áður en þeir vita hvað er gott vinnulag.
+:::
+:::
+::::
+
+::: {.win-win .light}
+*Hvernig kennum við nemendum að koma inn í kóða sem aðrir skrifuðu, óháð erindrekum?*
+
+*Hvernig kennum við hæfni junior og senior developer á sama tíma, áður en nemandinn hefur reynsluna?*
+:::
+
+::: {.notes}
+- Nemendur eru í raun junior developers: þeir koma inn í kóða sem einhver annar, nú oft erindreki, skrifaði.
+- Í atvinnulífinu skrifa erindrekar sífellt meira af kóðanum, en fagfólkið les, prófar og ber ábyrgð. Þessa hæfni þurfum við að þjálfa.
+- Þetta er hæfni sem fæst venjulega með reynslu í starfi. Nemendur samþykkja PR áður en þeir vita hvað er gott eða slæmt vinnulag, og spurningin er hvernig við kennum hana í námi.
+- Spyrðu salinn: hvernig kennum við þessa hæfni, og hvernig getum við nýtt raunveruleg PR-dæmi og viðmið úr atvinnulífinu í kennslu?
 :::
 
 ## Kennsluhönnunin gerir mannlega stjórn sýnilega
@@ -182,16 +339,24 @@ flowchart LR
 Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að erindrekinn er búinn.
 :::
 
+::: {.win-win .light}
+iTA er einskonar munnlegt próf sem ég bæti við TBL-ferlið: fyrst koma iRAT/tRAT og tAPP, svo iTA (individual team assessment), þar sem ég spyr verkefnastjóra lotunnar hvernig ákvarðanir voru teknar og hvernig verkefnið var leyst.
+:::
+
 ## Niðurstöður eftir fyrstu sjö vikurnar
 
-**Svör úr miðmisseriskönnuninni**
+::: {.section-label}
+Svör úr miðmisseriskönnuninni
+:::
 
 ::: {.fa-card cols=2}
 - lightbulb | **Áhugi** | Nemendur nefna raunhæf verkefni og áhuga á að kynnast erindrekum
 - triangle-exclamation | **Álag** | Umfang, Git-vinnuferli og óskýrar væntingar valda áhyggjum
 :::
 
-**Athuganir kennara á vinnuferli teymanna**
+::: {.section-label}
+Athuganir kennara á vinnuferli teymanna
+:::
 
 ::: {.oppose left="Óbeislaður erindreki" right="Taminn erindreki" left-icon="robot" right-icon="user-check"}
 - Framleiðir meira og flóknara en teymið nær að yfirfara | Fær afmarkað verkefni sem teymið getur yfirfarið
@@ -199,7 +364,7 @@ Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að eri
 :::
 
 ::: {.yellow-takeaway}
-**Magn og hraði eru ekki mælikvarðar á gæði.** Afmörkun felst líka í að ákveða hvað erindrekinn á ekki að framleiða og hvernig vinnunni er skipt.
+**Magn og hraði eru ekki mælikvarðar á gæði.**<br>Afmörkun felst líka í að ákveða hvað erindrekinn á ekki að framleiða og hvernig vinnunni er skipt.
 :::
 
 ## {.focus-slide}
@@ -211,9 +376,11 @@ Mannleg yfirferð er hluti af verkinu sjálfu, ekki lokaathugasemd eftir að eri
 
 ::: {.col}
 ```{=html}
-<h2>Takk fyrir</h2>
-<h3>Spurningar?</h3>
+<div class="closing-q">Hvernig tryggjum við að hæfni nemenda sé náð á tímum spunagreindar, en styðjum um leið virkt nám?</div>
+<div class="closing-q">Hvernig kennum við nemendum að nota erindreka á ábyrgan og faglegan hátt?</div>
 ```
+
+<p class="closing-link">Námsefni um notkun erindreka: <a href="https://hi-idn.github.io/IDN302G/ai-tools/">hi-idn.github.io/IDN302G/ai-tools</a></p>
 
 {{< contact-card >}}
 :::

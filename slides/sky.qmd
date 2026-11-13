@@ -13,7 +13,7 @@ presenters:
 event-meta: "Hugbúnaðarráðstefna Ský: Hugbúnaðargerð án handskrifaðs kóða"
 event-date: "18. nóvember 2026"
 watermark: img/hi/hi_logo.svg
-favicon: https://www.sky.is/images/stories/layout/sky_logo.svg
+favicon: img/sky-favicon.svg
 format:
   haskoli-islands-revealjs:
     logo: img/hi/hi_named_logo-is.svg
