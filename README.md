@@ -38,12 +38,6 @@ Ingimundardóttir, Helga. 2026. „Erindrekinn vinnur, nemandinn ber ábyrgð.�
 }
 ```
 
-## Merki
-
-- [logo-short.svg](quarto/logo-short.svg) sýnir „KENNSLU AKADEMÍA“.
-- [logo-long.svg](quarto/logo-long.svg) bætir við „OPINBERU HÁSKÓLANNA“.
-- Bæði nota merkið í [favicon.svg](quarto/favicon.svg) og hafa texta sem SVG-texta í Arial Bold.
-
 ## Building
 
 The paper is authored in [erindrekar.qmd](erindrekar.qmd). The two RevealJS presentations use the HÍ theme from [tungufoss/quarto-hi](https://github.com/tungufoss/quarto-hi):
