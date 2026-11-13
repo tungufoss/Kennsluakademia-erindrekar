@@ -131,3 +131,13 @@
 .ka-callout p:last-child {
   margin-bottom: 0;
 }
+
+.pub-note {
+  background: #F5F5F5;
+  border-left: 4px solid var(--ka-lightblue);
+  padding: .75rem 1rem;
+  margin: 0 0 1.5rem;
+}
+.pub-note p {
+  margin: 0;
+}

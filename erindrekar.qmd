@@ -66,6 +66,13 @@ format:
         href: slides/sky.html
 ---
 
+::::: {.content-visible when-format="html"}
+::: {.pub-note}
+Erindið verður flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30.
+[Útgefið erindi (PDF)](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf) · [Glærur](slides/index.html#/)
+:::
+:::::
+
 # Inngangur
 
 AI-erindrekar (e. *AI agents*) eru að breyta því hvernig gervigreind er notuð í hugbúnaðarþróun, gagnagreiningu og annarri þekkingarvinnu. Ólíkt hefðbundnu spjalli eða sjálfvirkri kóðafyllingu geta erindrekar tekið við markmiði, lesið samhengi verkefnis, notað verkfæri og framkvæmt fjölskrefaaðgerðir, svo sem að breyta skrám, keyra prófanir og undirbúa *pull request*. Kannanir benda til þess að notkun slíkra kerfa fari hratt vaxandi, þótt innleiðing þeirra sé víða enn á tilraunastigi. Í alþjóðlegri könnun McKinsey sögðu 62% svarenda fyrirtæki sín að minnsta kosti vera að gera tilraunir með AI-erindreka, en fæst höfðu náð að innleiða þá í stórum stíl [@mckinsey2025]. Í könnun JetBrains meðal hugbúnaðarfólks sögðust 74% nota sérhæfð AI-verkfæri við þróun, þar á meðal kóðaaðstoð og erindreka [@jetbrains2026].
