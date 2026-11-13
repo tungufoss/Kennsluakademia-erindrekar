@@ -68,7 +68,7 @@ format:
 
 ::::: {.content-visible when-format="html"}
 ::: {.pub-note}
-Erindið verður flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30.
+Erindið var flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30.
 [Útgefið erindi (PDF)](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/erindrekar-1.pdf) · [Glærur](slides/index.html#/)
 :::
 :::::
