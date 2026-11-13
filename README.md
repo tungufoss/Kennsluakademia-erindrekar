@@ -38,9 +38,7 @@ Ingimundardóttir, Helga. 2026. „Erindrekinn vinnur, nemandinn ber ábyrgð.�
 }
 ```
 
-## Building
-
-The paper is authored in [erindrekar.qmd](erindrekar.qmd). The two RevealJS presentations use the HÍ theme from [tungufoss/quarto-hi](https://github.com/tungufoss/quarto-hi):
+## Smíði
 
 ```bash
 quarto render erindrekar.qmd
@@ -48,7 +46,7 @@ quarto render slides/index.qmd
 quarto render slides/sky.qmd
 ```
 
-The GitHub Pages workflow renders the article and both slide decks on updates to `main` and deploys them to the project site.
+Push á `main` birtir síðuna á GitHub Pages.
 
 ## Leyfi
 
